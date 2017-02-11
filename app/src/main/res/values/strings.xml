@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">PS Natura</string>
+    <!--Content items-->
+    <string name="heading">PS Natura organic shop</string>
+    <string name="address"><a href="https://goo.gl/maps/Cm24cFCKeL12">al. Slowackiego 64 "Herbewo", Kraków</a></string>
+    <string name="website">www.psnatura.pl</string>
+    <string name="email">biuro@psnatura.pl</string>
+    <string name="phone_number">+48 799 827 662</string>
+    <string name="hours_of_operation"></string>
+    <string name="description">PS Natura was established in 2016 as a part of project "Manufaktura Smaków Naturalnych". It\'s a small family business, running by two friends: Renata and Darek. PS Natura is a organic shop which offer a lot of bio, organic food and other healthy products like diet suplements, cosmetics. In this shop You can buy also vegan, vegetarian products. In offer are products with "Fair Trade" logo and many other coming from local agriculture and businesses. You can find PS Natura in the center of Cracow on Slowackiego 64 avenue in "Herbewo" building. You\'re always welcome!</string>
+    <!--Images descriptions-->
+    <string name="cover_photo_description">Main photo of PS Natura organic shop</string>
+    <string name="logo_description">Logo of PS Natura organic shop</string>
+    <!--List of hours-->
+    <string name="monday">Mon.</string>
+    <string name="tuesday">Tue.</string>
+    <string name="wednesday">Wed.</string>
+    <string name="thursday">Thu.</string>
+    <string name="friday">Fri.</string>
+    <string name="saturday">Sat.</string>
+    <string name="open_on_weekdays">9.00 - 18.30</string>
+    <string name="open_on_weekend">9.00 - 14.00</string>
+</resources>

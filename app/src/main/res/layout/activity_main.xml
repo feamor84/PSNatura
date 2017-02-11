@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="pl.bartekpawlowski.psnatura.MainActivity"
+    style="@style/ScrollContainer">
+
+    <LinearLayout
+        style="@style/MainContainer"
+        android:id="@+id/activity_main">
+
+        <ImageView
+            android:id="@+id/MainImageView"
+            style="@style/MainImageView"
+            android:contentDescription="@string/cover_photo_description" />
+
+        <ImageView
+            android:id="@+id/Logo"
+            style="@style/Logo"
+            android:contentDescription="@string/logo_description" />
+
+        <LinearLayout
+            android:id="@+id/InfoWrapper"
+            style="@style/InfoWrapper">
+
+            <TextView
+                style="@style/Heading"
+                android:id="@+id/Heading"
+                android:text="@string/heading"/>
+
+            <TextView
+                style="@style/Website"
+                android:id="@+id/Website"
+                android:text="@string/website"/>
+
+            <TextView
+                style="@style/Address"
+                android:id="@+id/Address"
+                android:text="@string/address"/>
+
+            <TextView
+                style="@style/PhoneNumber"
+                android:id="@+id/PhoneNumber"
+                android:text="@string/phone_number"/>
+
+            <TextView
+                style="@style/Email"
+                android:id="@+id/Email"
+                android:text="@string/email"/>
+
+            <LinearLayout
+                style="@style/ListOfHours"
+                android:id="@+id/ListOfHours">
+
+                <ImageView
+                    style="@style/ListOfHoursImage"
+                    android:id="@+id/ListOfHoursImage"
+                    tools:ignore="ContentDescription" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow>
+                        <TextView
+                            style="@style/ListOfHoursFirsColumn"
+                            android:text="@string/monday"/>
+                        <TextView
+                            style="@style/ListOfHoursItems"
+                            android:text="@string/open_on_weekdays"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            style="@style/ListOfHoursFirsColumn"
+                            android:text="@string/tuesday" />
+                        <TextView
+                            style="@style/ListOfHoursItems"
+                            android:text="@string/open_on_weekdays"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            style="@style/ListOfHoursFirsColumn"
+                            android:text="@string/wednesday" />
+                        <TextView
+                            style="@style/ListOfHoursItems"
+                            android:text="@string/open_on_weekdays"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            style="@style/ListOfHoursFirsColumn"
+                            android:text="@string/thursday"/>
+                        <TextView
+                            style="@style/ListOfHoursItems"
+                            android:text="@string/open_on_weekdays"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            style="@style/ListOfHoursFirsColumn"
+                            android:text="@string/friday"/>
+                        <TextView
+                            style="@style/ListOfHoursItems"
+                            android:text="@string/open_on_weekdays"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            style="@style/ListOfHoursFirsColumn"
+                            android:text="@string/saturday"/>
+                        <TextView
+                            style="@style/ListOfHoursItems"
+                            android:text="@string/open_on_weekend"/>
+                    </TableRow>
+                </TableLayout>
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/Description"
+                android:id="@+id/Description"
+                android:text="@string/description"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

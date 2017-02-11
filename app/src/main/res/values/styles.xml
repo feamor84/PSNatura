@@ -1,0 +1,126 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ScrollContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorBackground</item>
+        <item name="android:fillViewport">true</item>
+    </style>
+
+    <style name="MainContainer">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="MainContainerItems">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/mc_items_height</item>
+
+    </style>
+
+    <!--MainImageView setup-->
+    <style name="MainImageView" parent="MainContainerItems">
+        <item name="android:src">@drawable/psnatura_coverphoto</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <!--Logo image setup-->
+    <style name="Logo">
+        <item name="android:src">@drawable/psnatura_logo</item>
+        <item name="android:layout_height">@dimen/logo_width_height</item>
+        <item name="android:layout_width">@dimen/logo_width_height</item>
+        <item name="android:layout_marginTop">@dimen/logo_top_negative_margin</item>
+        <item name="android:layout_marginLeft">@dimen/logo_left_margin</item>
+    </style>
+
+    <!--InfoWrapper setup-->
+    <style name="InfoWrapper" parent="MainContainerItems">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_weight">2</item>
+    </style>
+    <!--Info elements setup-->
+    <style name="Heading">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/content_items_padding</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/heading_text_size</item>
+        <item name="android:textColor">@color/colorHeading</item>
+        <item name="android:fontFamily"></item>
+    </style>
+
+    <style name="InfoWrapperItems">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/content_items_padding</item>
+        <item name="android:drawablePadding">@dimen/content_drawable_padding</item>
+        <item name="android:textSize">@dimen/content_text_size</item>
+    </style>
+
+    <style name="Address" parent="InfoWrapperItems">
+        <item name="android:drawableLeft">@drawable/ic_near_me_black_24dp</item>
+        <item name="android:background">@color/stripEven</item>
+        <item name="android:linksClickable">true</item>
+    </style>
+
+    <style name="PhoneNumber" parent="InfoWrapperItems">
+        <item name="android:drawableLeft">@drawable/ic_call_black_24dp</item>
+        <item name="android:autoLink">phone</item>
+        <item name="android:background">@color/stripOdd</item>
+    </style>
+
+    <style name="ListOfHours">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/cell_horizontal_padding</item>
+        <item name="android:paddingBottom">@dimen/cell_horizontal_padding</item>
+        <item name="android:background">@color/stripOdd</item>
+    </style>
+
+    <style name="ListOfHoursImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:src">@drawable/ic_date_range_black_24dp</item>
+        <item name="android:paddingLeft">@dimen/content_items_padding</item>
+        <item name="android:paddingRight">@dimen/content_items_padding</item>
+    </style>
+
+    <style name="ListOfHoursItems">
+        <item name="android:paddingTop">@dimen/cell_vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/cell_vertical_padding</item>
+        <item name="android:textSize">@dimen/content_text_size</item>
+    </style>
+
+    <style name="ListOfHoursFirsColumn" parent="ListOfHoursItems">
+        <item name="android:layout_marginRight">@dimen/first_column_margin</item>
+        <item name="android:paddingLeft">@dimen/cell_horizontal_padding</item>
+    </style>
+
+    <style name="Website" parent="InfoWrapperItems">
+        <item name="android:drawableLeft">@drawable/ic_public_black_24dp</item>
+        <item name="android:autoLink">web</item>
+        <item name="android:background">@color/stripOdd</item>
+    </style>
+
+    <style name="Email" parent="InfoWrapperItems">
+        <item name="android:drawableLeft">@drawable/ic_mail_outline_black_24dp</item>
+        <item name="android:autoLink">email</item>
+        <item name="android:background">@color/stripEven</item>
+    </style>
+
+    <style name="Description" parent="InfoWrapperItems">
+        <item name="android:drawableLeft">@drawable/ic_assignment_black_24dp</item>
+        <item name="android:background">@color/stripEven</item>
+    </style>
+
+</resources>
